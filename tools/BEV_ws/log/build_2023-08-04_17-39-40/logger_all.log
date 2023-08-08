@@ -1,0 +1,158 @@
+[0.491s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.491s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff89aad340>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff89aad340>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff89a67f10>)
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.556s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/BEV_ws'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/bev_msgs) by extension 'ros'
+[0.595s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bev_msgs' with type 'ros.ament_cmake' and name 'bev_msgs'
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.646s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/foxy
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'cmake_args' from command line to 'None'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'cmake_target' from command line to 'None'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.751s] Level 5:colcon.colcon_core.verb:set package 'bev_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.751s] DEBUG:colcon.colcon_core.verb:Building package 'bev_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/BEV_ws/build/bev_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/BEV_ws/install/bev_msgs', 'merge_install': False, 'path': '/home/nvidia/BEV_ws/src/bev_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.753s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.760s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.761s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/BEV_ws/src/bev_msgs' with build type 'ament_cmake'
+[0.761s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/BEV_ws/src/bev_msgs'
+[0.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/nvidia/BEV_ws/src/bev_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/BEV_ws/install/bev_msgs
+[4.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/nvidia/BEV_ws/src/bev_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/BEV_ws/install/bev_msgs
+[4.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEV_ws/build/bev_msgs -- -j12 -l12
+[9.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEV_ws/build/bev_msgs -- -j12 -l12
+[9.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEV_ws/build/bev_msgs
+[9.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bev_msgs)
+[9.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEV_ws/build/bev_msgs
+[9.524s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs' for CMake module files
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs' for CMake config files
+[9.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('bev_msgs', 'cmake_prefix_path')
+[9.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/cmake_prefix_path.ps1'
+[9.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/cmake_prefix_path.dsv'
+[9.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/cmake_prefix_path.sh'
+[9.541s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/lib'
+[9.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('bev_msgs', 'ld_library_path_lib')
+[9.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/ld_library_path_lib.ps1'
+[9.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/ld_library_path_lib.dsv'
+[9.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/ld_library_path_lib.sh'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/bin'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/lib/pkgconfig/bev_msgs.pc'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages'
+[9.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('bev_msgs', 'pythonpath')
+[9.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/pythonpath.ps1'
+[9.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/pythonpath.dsv'
+[9.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/pythonpath.sh'
+[9.559s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/bin'
+[9.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.ps1'
+[9.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.dsv'
+[9.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.sh'
+[9.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.bash'
+[9.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.zsh'
+[9.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/BEV_ws/install/bev_msgs/share/colcon-core/packages/bev_msgs)
+[9.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bev_msgs)
+[9.709s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs' for CMake module files
+[9.710s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs' for CMake config files
+[9.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('bev_msgs', 'cmake_prefix_path')
+[9.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/cmake_prefix_path.ps1'
+[9.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/cmake_prefix_path.dsv'
+[9.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/cmake_prefix_path.sh'
+[9.715s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/lib'
+[9.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('bev_msgs', 'ld_library_path_lib')
+[9.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/ld_library_path_lib.ps1'
+[9.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/ld_library_path_lib.dsv'
+[9.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/ld_library_path_lib.sh'
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/bin'
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/lib/pkgconfig/bev_msgs.pc'
+[9.726s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages'
+[9.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('bev_msgs', 'pythonpath')
+[9.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/pythonpath.ps1'
+[9.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/pythonpath.dsv'
+[9.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/hook/pythonpath.sh'
+[9.732s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/BEV_ws/install/bev_msgs/bin'
+[9.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.ps1'
+[9.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.dsv'
+[9.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.sh'
+[9.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.bash'
+[9.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.zsh'
+[9.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/BEV_ws/install/bev_msgs/share/colcon-core/packages/bev_msgs)
+[9.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.743s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.768s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.768s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.806s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/BEV_ws/install/local_setup.ps1'
+[9.839s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/BEV_ws/install/_local_setup_util_ps1.py'
+[9.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/BEV_ws/install/setup.ps1'
+[9.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/BEV_ws/install/local_setup.sh'
+[9.846s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/BEV_ws/install/_local_setup_util_sh.py'
+[9.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/BEV_ws/install/setup.sh'
+[9.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/BEV_ws/install/local_setup.bash'
+[9.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/BEV_ws/install/setup.bash'
+[9.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/BEV_ws/install/local_setup.zsh'
+[9.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/BEV_ws/install/setup.zsh'

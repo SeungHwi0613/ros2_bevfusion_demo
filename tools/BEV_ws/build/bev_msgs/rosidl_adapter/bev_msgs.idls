@@ -1,0 +1,3 @@
+/home/nvidia/BEV_ws/build/bev_msgs/rosidl_adapter/bev_msgs:msg/Output.idl
+/home/nvidia/BEV_ws/build/bev_msgs/rosidl_adapter/bev_msgs:msg/Bbox.idl
+/home/nvidia/BEV_ws/build/bev_msgs/rosidl_adapter/bev_msgs:msg/OutputArray.idl

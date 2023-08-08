@@ -1,0 +1,6 @@
+msg/Bbox.idl
+msg/Bbox.msg
+msg/Output.idl
+msg/Output.msg
+msg/OutputArray.idl
+msg/OutputArray.msg

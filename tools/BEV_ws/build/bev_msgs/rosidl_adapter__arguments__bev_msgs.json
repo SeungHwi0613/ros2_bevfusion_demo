@@ -1,0 +1,8 @@
+{
+  "package_name": "bev_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/BEV_ws/src/bev_msgs:msg/Output.msg",
+    "/home/nvidia/BEV_ws/src/bev_msgs:msg/Bbox.msg",
+    "/home/nvidia/BEV_ws/src/bev_msgs:msg/OutputArray.msg"
+  ]
+}

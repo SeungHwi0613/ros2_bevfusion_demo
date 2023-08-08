@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from bev_msgs/msg/Bbox.msg
+// generated code does not contain a copyright notice
+
+
+module bev_msgs {
+  module msg {
+    struct Bbox {
+      double pos_x;
+
+      double pos_y;
+
+      double width;
+
+      double length;
+
+      double height;
+
+      double yaw;
+    };
+  };
+};

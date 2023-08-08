@@ -1,0 +1,6 @@
+Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/nvidia/BEV_ws/src/bev_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/BEV_ws/install/bev_msgs
+Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/nvidia/BEV_ws/src/bev_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/BEV_ws/install/bev_msgs
+Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEV_ws/build/bev_msgs -- -j12 -l12
+Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEV_ws/build/bev_msgs -- -j12 -l12
+Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEV_ws/build/bev_msgs
+Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEV_ws/build/bev_msgs

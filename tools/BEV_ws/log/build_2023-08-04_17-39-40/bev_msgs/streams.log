@@ -1,0 +1,272 @@
+[0.041s] Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/nvidia/BEV_ws/src/bev_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/BEV_ws/install/bev_msgs
+[0.224s] -- The C compiler identification is GNU 9.4.0
+[0.342s] -- The CXX compiler identification is GNU 9.4.0
+[0.364s] -- Check for working C compiler: /usr/bin/cc
+[0.482s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.503s] -- Detecting C compiler ABI info
+[0.635s] -- Detecting C compiler ABI info - done
+[0.679s] -- Detecting C compile features
+[0.680s] -- Detecting C compile features - done
+[0.689s] -- Check for working CXX compiler: /usr/bin/c++
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.828s] -- Detecting CXX compiler ABI info
+[0.984s] -- Detecting CXX compiler ABI info - done
+[1.005s] -- Detecting CXX compile features
+[1.007s] -- Detecting CXX compile features - done
+[1.033s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.097s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.097s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.542s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.612s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.815s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.877s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.096s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.148s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.508s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.935s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.945s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.011s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.012s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.012s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.012s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[3.050s] -- Found PythonExtra: .so  
+[3.417s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.471s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.474s] -- Added test 'lint_cmake' to check CMake code style
+[3.476s] -- Added test 'xmllint' to check XML markup files
+[3.486s] -- Configuring done
+[3.557s] -- Generating done
+[3.561s] -- Build files have been written to: /home/nvidia/BEV_ws/build/bev_msgs
+[3.599s] Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/nvidia/BEV_ws/src/bev_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/BEV_ws/install/bev_msgs
+[3.606s] Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEV_ws/build/bev_msgs -- -j12 -l12
+[3.680s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.680s] [35m[1mScanning dependencies of target bev_msgs__cpp[0m
+[3.698s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.190s] [  4%] Built target bev_msgs__cpp
+[4.212s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.213s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.213s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.226s] [35m[1mScanning dependencies of target bev_msgs__rosidl_generator_c[0m
+[4.264s] [ 14%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_generator_c.dir/rosidl_generator_c/bev_msgs/msg/detail/bbox__functions.c.o[0m
+[4.264s] [ 14%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_generator_c.dir/rosidl_generator_c/bev_msgs/msg/detail/output__functions.c.o[0m
+[4.269s] [ 17%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_generator_c.dir/rosidl_generator_c/bev_msgs/msg/detail/output_array__functions.c.o[0m
+[4.369s] [ 19%] [32m[1mLinking C shared library libbev_msgs__rosidl_generator_c.so[0m
+[4.444s] [ 19%] Built target bev_msgs__rosidl_generator_c
+[4.465s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.465s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.575s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_cpp[0m
+[4.608s] [ 29%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bev_msgs/msg/output_array__type_support.cpp.o[0m
+[4.608s] [ 29%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bev_msgs/msg/bbox__type_support.cpp.o[0m
+[4.608s] [ 29%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bev_msgs/msg/output__type_support.cpp.o[0m
+[4.613s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.646s] [ 34%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bev_msgs/msg/detail/bbox__type_support.cpp.o[0m
+[4.646s] [ 34%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bev_msgs/msg/detail/output_array__type_support.cpp.o[0m
+[4.646s] [ 36%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bev_msgs/msg/detail/output__type_support.cpp.o[0m
+[4.652s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.688s] [ 40%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bev_msgs/msg/detail/dds_fastrtps/output__type_support.cpp.o[0m
+[4.688s] [ 40%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bev_msgs/msg/detail/dds_fastrtps/bbox__type_support.cpp.o[0m
+[4.689s] [ 42%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bev_msgs/msg/detail/dds_fastrtps/output_array__type_support.cpp.o[0m
+[4.878s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_c[0m
+[4.910s] [ 46%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bev_msgs/msg/output__type_support.cpp.o[0m
+[4.910s] [ 46%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bev_msgs/msg/bbox__type_support.cpp.o[0m
+[4.971s] [ 48%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bev_msgs/msg/output_array__type_support.cpp.o[0m
+[5.011s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_introspection_c[0m
+[5.040s] [ 53%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bev_msgs/msg/detail/output__type_support.c.o[0m
+[5.040s] [ 53%] [32m[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_c.so[0m
+[5.049s] [ 55%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bev_msgs/msg/detail/bbox__type_support.c.o[0m
+[5.110s] [ 57%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bev_msgs/msg/detail/output_array__type_support.c.o[0m
+[5.129s] [ 57%] Built target bev_msgs__rosidl_typesupport_c
+[5.159s] [ 59%] [32m[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_cpp.so[0m
+[5.191s] [ 61%] [32m[1mLinking C shared library libbev_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.222s] [ 61%] Built target bev_msgs__rosidl_typesupport_cpp
+[5.240s] [ 63%] [32m[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.240s] [ 63%] Built target bev_msgs__rosidl_typesupport_introspection_c
+[5.369s] [ 63%] Built target bev_msgs__rosidl_typesupport_introspection_cpp
+[5.528s] [ 65%] [32m[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.676s] [ 65%] Built target bev_msgs__rosidl_typesupport_fastrtps_cpp
+[5.696s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.130s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.168s] [ 74%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bev_msgs/msg/detail/output_array__type_support_c.cpp.o[0m
+[6.168s] [ 74%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bev_msgs/msg/detail/output__type_support_c.cpp.o[0m
+[6.168s] [ 74%] [32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bev_msgs/msg/detail/bbox__type_support_c.cpp.o[0m
+[6.761s] [ 76%] [32m[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.926s] [ 76%] Built target bev_msgs__rosidl_typesupport_fastrtps_c
+[6.943s] [35m[1mScanning dependencies of target bev_msgs[0m
+[6.962s] [ 76%] Built target bev_msgs
+[6.978s] [35m[1mScanning dependencies of target bev_msgs__py[0m
+[7.005s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.786s] [ 78%] Built target bev_msgs__py
+[7.816s] [35m[1mScanning dependencies of target bev_msgs__python[0m
+[7.878s] [ 85%] [32mBuilding C object CMakeFiles/bev_msgs__python.dir/rosidl_generator_py/bev_msgs/msg/_bbox_s.c.o[0m
+[7.879s] [ 85%] [32mBuilding C object CMakeFiles/bev_msgs__python.dir/rosidl_generator_py/bev_msgs/msg/_output_s.c.o[0m
+[7.879s] [ 85%] [32mBuilding C object CMakeFiles/bev_msgs__python.dir/rosidl_generator_py/bev_msgs/msg/_output_array_s.c.o[0m
+[8.069s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/bev_msgs/libbev_msgs__python.so[0m
+[8.136s] [ 87%] Built target bev_msgs__python
+[8.154s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.154s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_c__pyext[0m
+[8.154s] [35m[1mScanning dependencies of target bev_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[8.184s] [ 91%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bev_msgs/_bev_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.184s] [ 91%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bev_msgs/_bev_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.184s] [ 93%] [32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bev_msgs/_bev_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.314s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/bev_msgs/bev_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[8.315s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/bev_msgs/bev_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[8.328s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/bev_msgs/bev_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[8.372s] [100%] Built target bev_msgs__rosidl_typesupport_introspection_c__pyext
+[8.373s] [100%] Built target bev_msgs__rosidl_typesupport_c__pyext
+[8.428s] [100%] Built target bev_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.455s] Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEV_ws/build/bev_msgs -- -j12 -l12
+[8.611s] Invoking command in '/home/nvidia/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEV_ws/build/bev_msgs
+[8.633s] -- Install configuration: ""
+[8.633s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/rosidl_interfaces/bev_msgs
+[8.633s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[8.633s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[8.634s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/bbox.h
+[8.634s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output_array.h
+[8.634s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.634s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[8.634s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__struct.h
+[8.634s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__functions.c
+[8.635s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__struct.h
+[8.635s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__functions.c
+[8.635s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__functions.h
+[8.635s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.h
+[8.635s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.h
+[8.635s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__struct.h
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__functions.c
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__functions.h
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__functions.h
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.h
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output.h
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/library_path.sh
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/library_path.dsv
+[8.636s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_generator_c.so
+[8.637s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_generator_c.so" to ""
+[8.637s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[8.637s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[8.637s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[8.637s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_fastrtps_c.h
+[8.638s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_fastrtps_c.h
+[8.638s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_fastrtps_c.h
+[8.638s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.638s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_c.so
+[8.639s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.639s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[8.639s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[8.639s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.639s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[8.639s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_fastrtps_cpp.hpp
+[8.640s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_fastrtps_cpp.hpp
+[8.640s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.640s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/dds_fastrtps
+[8.640s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.640s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.640s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[8.640s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[8.641s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.641s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[8.641s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_introspection_c.h
+[8.641s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.c
+[8.641s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.c
+[8.641s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_introspection_c.h
+[8.641s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_introspection_c.h
+[8.642s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.c
+[8.642s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_c.so
+[8.642s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.642s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_c.so
+[8.642s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_c.so" to ""
+[8.643s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[8.643s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[8.643s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output.hpp
+[8.643s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.643s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output_array.hpp
+[8.643s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[8.644s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.hpp
+[8.644s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.hpp
+[8.644s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__traits.hpp
+[8.644s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__struct.hpp
+[8.644s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.hpp
+[8.644s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__traits.hpp
+[8.645s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__struct.hpp
+[8.645s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__builder.hpp
+[8.645s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__traits.hpp
+[8.645s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__struct.hpp
+[8.645s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__builder.hpp
+[8.645s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__builder.hpp
+[8.646s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/bbox.hpp
+[8.646s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[8.646s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[8.646s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[8.646s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_introspection_cpp.hpp
+[8.646s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.cpp
+[8.647s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_introspection_cpp.hpp
+[8.647s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_introspection_cpp.hpp
+[8.647s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.cpp
+[8.647s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.cpp
+[8.647s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_cpp.so
+[8.647s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.647s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_cpp.so
+[8.648s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_cpp.so" to ""
+[8.648s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/pythonpath.sh
+[8.648s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/pythonpath.dsv
+[8.648s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/__init__.py
+[8.693s] Compiling '/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/__init__.py'...
+[8.701s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg
+[8.702s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/__init__.py
+[8.702s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_bbox.py
+[8.702s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_bbox_s.c
+[8.703s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output.py
+[8.703s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_array_s.c
+[8.703s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_array.py
+[8.703s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_s.c
+[8.704s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[8.704s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[8.704s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[8.704s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[8.705s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[8.705s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[8.705s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__python.so
+[8.706s] -- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__python.so" to ""
+[8.706s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Output.idl
+[8.706s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Bbox.idl
+[8.707s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/OutputArray.idl
+[8.707s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Output.msg
+[8.707s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Bbox.msg
+[8.707s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/OutputArray.msg
+[8.708s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/package_run_dependencies/bev_msgs
+[8.708s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/parent_prefix_path/bev_msgs
+[8.708s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/ament_prefix_path.sh
+[8.709s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/ament_prefix_path.dsv
+[8.709s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/path.sh
+[8.709s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/path.dsv
+[8.709s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.bash
+[8.710s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.sh
+[8.710s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.zsh
+[8.710s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.dsv
+[8.710s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.dsv
+[8.711s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/packages/bev_msgs
+[8.711s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cExport.cmake
+[8.711s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.712s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.712s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.712s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cExport.cmake
+[8.712s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.713s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cppExport.cmake
+[8.713s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.713s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.714s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cppExport.cmake
+[8.714s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.714s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake-extras.cmake
+[8.714s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.715s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.715s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.715s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.715s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.715s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.716s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgsConfig.cmake
+[8.716s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgsConfig-version.cmake
+[8.716s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.xml
+[8.721s] Invoked command in '/home/nvidia/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEV_ws/build/bev_msgs

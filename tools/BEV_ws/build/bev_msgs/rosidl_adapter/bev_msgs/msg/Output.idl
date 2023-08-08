@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from bev_msgs/msg/Output.msg
+// generated code does not contain a copyright notice
+
+#include "bev_msgs/msg/Bbox.idl"
+
+module bev_msgs {
+  module msg {
+    struct Output {
+      int64 id;
+
+      double score;
+
+      int64 label;
+
+      bev_msgs::msg::Bbox box;
+    };
+  };
+};

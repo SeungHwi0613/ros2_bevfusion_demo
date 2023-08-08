@@ -1,0 +1,156 @@
+[0.028s] Invoking command in '/home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs -- -j12 -l12
+[0.050s] CMake Error: The current CMakeCache.txt directory /home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs/CMakeCache.txt is different than the directory /home/nvidia/BEV_ws/build/bev_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.113s] [  2%] Built target bev_msgs__cpp
+[0.114s] [ 12%] Built target bev_msgs__rosidl_generator_c
+[0.149s] [ 53%] Built target bev_msgs__rosidl_typesupport_cpp
+[0.149s] [ 53%] Built target bev_msgs__rosidl_typesupport_introspection_cpp
+[0.149s] [ 53%] Built target bev_msgs__rosidl_typesupport_introspection_c
+[0.149s] [ 55%] Built target bev_msgs__rosidl_typesupport_c
+[0.154s] [ 65%] Built target bev_msgs__rosidl_typesupport_fastrtps_cpp
+[0.200s] [ 76%] Built target bev_msgs__rosidl_typesupport_fastrtps_c
+[0.237s] [ 76%] Built target bev_msgs
+[0.270s] [ 78%] Built target bev_msgs__py
+[0.316s] [ 87%] Built target bev_msgs__python
+[0.364s] [100%] Built target bev_msgs__rosidl_typesupport_introspection_c__pyext
+[0.365s] [100%] Built target bev_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.365s] [100%] Built target bev_msgs__rosidl_typesupport_c__pyext
+[0.387s] Invoked command in '/home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs -- -j12 -l12
+[0.539s] Invoking command in '/home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs
+[0.559s] -- Install configuration: ""
+[0.559s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/rosidl_interfaces/bev_msgs
+[0.559s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[0.560s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[0.560s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/bbox.h
+[0.560s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output_array.h
+[0.561s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.561s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[0.561s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__struct.h
+[0.562s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__functions.c
+[0.562s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__struct.h
+[0.562s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__functions.c
+[0.563s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__functions.h
+[0.563s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.h
+[0.564s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.h
+[0.564s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__struct.h
+[0.564s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__functions.c
+[0.564s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__functions.h
+[0.565s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__functions.h
+[0.565s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.h
+[0.565s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output.h
+[0.565s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/library_path.sh
+[0.566s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/library_path.dsv
+[0.566s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_generator_c.so
+[0.566s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[0.566s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[0.567s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[0.567s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_fastrtps_c.h
+[0.567s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_fastrtps_c.h
+[0.567s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_fastrtps_c.h
+[0.567s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.568s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_c.so
+[0.568s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[0.568s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[0.568s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.569s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[0.569s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_fastrtps_cpp.hpp
+[0.569s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_fastrtps_cpp.hpp
+[0.569s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.569s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/dds_fastrtps
+[0.570s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.570s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[0.570s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[0.570s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.571s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[0.571s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_introspection_c.h
+[0.571s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.c
+[0.571s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.c
+[0.572s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_introspection_c.h
+[0.572s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_introspection_c.h
+[0.572s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.c
+[0.572s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_c.so
+[0.573s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_c.so
+[0.573s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[0.573s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[0.573s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output.hpp
+[0.573s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.574s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output_array.hpp
+[0.574s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[0.574s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.hpp
+[0.574s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.hpp
+[0.575s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__traits.hpp
+[0.575s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__struct.hpp
+[0.575s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.hpp
+[0.575s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__traits.hpp
+[0.575s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__struct.hpp
+[0.576s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__builder.hpp
+[0.576s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__traits.hpp
+[0.576s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__struct.hpp
+[0.576s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__builder.hpp
+[0.576s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__builder.hpp
+[0.577s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/bbox.hpp
+[0.577s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs
+[0.577s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg
+[0.577s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail
+[0.578s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_introspection_cpp.hpp
+[0.578s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.cpp
+[0.578s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_introspection_cpp.hpp
+[0.578s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_introspection_cpp.hpp
+[0.578s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.cpp
+[0.579s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.cpp
+[0.579s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_cpp.so
+[0.579s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_cpp.so
+[0.579s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/pythonpath.sh
+[0.579s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/pythonpath.dsv
+[0.580s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/__init__.py
+[0.618s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg
+[0.619s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/__init__.py
+[0.619s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_bbox.py
+[0.619s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_bbox_s.c
+[0.619s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output.py
+[0.619s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_array_s.c
+[0.619s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_array.py
+[0.620s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_s.c
+[0.620s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[0.620s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[0.620s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[0.621s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__python.so
+[0.621s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Output.idl
+[0.622s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Bbox.idl
+[0.622s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/OutputArray.idl
+[0.622s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Output.msg
+[0.622s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Bbox.msg
+[0.622s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/OutputArray.msg
+[0.622s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/package_run_dependencies/bev_msgs
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/parent_prefix_path/bev_msgs
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/ament_prefix_path.sh
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/ament_prefix_path.dsv
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/path.sh
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/path.dsv
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.bash
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.sh
+[0.623s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.zsh
+[0.624s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.dsv
+[0.624s] -- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.dsv
+[0.624s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/packages/bev_msgs
+[0.624s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cExport.cmake
+[0.624s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.624s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.624s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cExport.cmake
+[0.625s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cppExport.cmake
+[0.625s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.625s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cppExport.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake-extras.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.626s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgsConfig.cmake
+[0.627s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgsConfig-version.cmake
+[0.627s] -- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.xml
+[0.634s] Invoked command in '/home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/BEVfusion/tools/BEV_ws/build/bev_msgs

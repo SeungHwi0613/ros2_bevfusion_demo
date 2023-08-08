@@ -1,0 +1,369 @@
+[0.000000] (-) TimerEvent: {}
+[0.000686] (bev_msgs) JobQueued: {'identifier': 'bev_msgs', 'dependencies': OrderedDict()}
+[0.001181] (bev_msgs) JobStarted: {'identifier': 'bev_msgs'}
+[0.034576] (bev_msgs) JobProgress: {'identifier': 'bev_msgs', 'progress': 'cmake'}
+[0.035174] (bev_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/BEV_ws/src/bev_msgs', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/BEV_ws/install/bev_msgs'], 'cwd': '/home/nvidia/BEV_ws/build/bev_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2257'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.2.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'Jetson AGX Orin'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1571'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae75947c880b3effeaf5c7ce64cb6c6e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421023001391'), ('JOURNAL_STREAM', '7:50592'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Concord'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/bin:/bin:/home/nvidia/.local/bin'), ('SESSION_MANAGER', 'local/nvidia:@/tmp/.ICE-unix/2293,unix/nvidia:/tmp/.ICE-unix/2293'), ('INVOCATION_ID', 'ae1d07170886484bac09966058b2a4d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20254cba_6629_46b3_9d24_6002e6a40489'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.967'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/BEV_ws/build/bev_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae75947c880b3effeaf5c7ce64cb6c6e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098917] (-) TimerEvent: {}
+[0.199569] (-) TimerEvent: {}
+[0.224613] (bev_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.299753] (-) TimerEvent: {}
+[0.342664] (bev_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.365594] (bev_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.399914] (-) TimerEvent: {}
+[0.483313] (bev_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.500204] (-) TimerEvent: {}
+[0.503743] (bev_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600345] (-) TimerEvent: {}
+[0.635762] (bev_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.679577] (bev_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.680673] (bev_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.689764] (bev_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.700433] (-) TimerEvent: {}
+[0.801040] (-) TimerEvent: {}
+[0.825426] (bev_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.828900] (bev_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901242] (-) TimerEvent: {}
+[0.985434] (bev_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.001295] (-) TimerEvent: {}
+[1.006604] (bev_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.007921] (bev_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.034014] (bev_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.097343] (bev_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.098211] (bev_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.101382] (-) TimerEvent: {}
+[1.201878] (-) TimerEvent: {}
+[1.302594] (-) TimerEvent: {}
+[1.403391] (-) TimerEvent: {}
+[1.504289] (-) TimerEvent: {}
+[1.542401] (bev_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.600274] (bev_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604628] (-) TimerEvent: {}
+[1.612996] (bev_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.704786] (-) TimerEvent: {}
+[1.805583] (-) TimerEvent: {}
+[1.815408] (bev_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.878246] (bev_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.905629] (-) TimerEvent: {}
+[2.006253] (-) TimerEvent: {}
+[2.012128] (bev_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.097163] (bev_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.106362] (-) TimerEvent: {}
+[2.149529] (bev_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.206509] (-) TimerEvent: {}
+[2.307307] (-) TimerEvent: {}
+[2.408253] (-) TimerEvent: {}
+[2.508601] (bev_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.509577] (-) TimerEvent: {}
+[2.610326] (-) TimerEvent: {}
+[2.711073] (-) TimerEvent: {}
+[2.792831] (bev_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.811188] (-) TimerEvent: {}
+[2.890890] (bev_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.911351] (-) TimerEvent: {}
+[2.935986] (bev_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.946553] (bev_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.011513] (-) TimerEvent: {}
+[3.012414] (bev_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.012923] (bev_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.013210] (bev_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.013470] (bev_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[3.051058] (bev_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.111792] (-) TimerEvent: {}
+[3.212860] (-) TimerEvent: {}
+[3.313628] (-) TimerEvent: {}
+[3.414616] (-) TimerEvent: {}
+[3.417780] (bev_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.471592] (bev_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.475224] (bev_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.477396] (bev_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.486588] (bev_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.514680] (-) TimerEvent: {}
+[3.558406] (bev_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.562433] (bev_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/BEV_ws/build/bev_msgs\n'}
+[3.599362] (bev_msgs) CommandEnded: {'returncode': 0}
+[3.600901] (bev_msgs) JobProgress: {'identifier': 'bev_msgs', 'progress': 'build'}
+[3.602219] (bev_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/BEV_ws/build/bev_msgs', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/BEV_ws/build/bev_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2257'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.2.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'Jetson AGX Orin'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1571'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae75947c880b3effeaf5c7ce64cb6c6e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421023001391'), ('JOURNAL_STREAM', '7:50592'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Concord'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/bin:/bin:/home/nvidia/.local/bin'), ('SESSION_MANAGER', 'local/nvidia:@/tmp/.ICE-unix/2293,unix/nvidia:/tmp/.ICE-unix/2293'), ('INVOCATION_ID', 'ae1d07170886484bac09966058b2a4d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20254cba_6629_46b3_9d24_6002e6a40489'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.967'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/BEV_ws/build/bev_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae75947c880b3effeaf5c7ce64cb6c6e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.614843] (-) TimerEvent: {}
+[3.681049] (bev_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.681584] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__cpp\x1b[0m\n'}
+[3.699611] (bev_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.714997] (-) TimerEvent: {}
+[3.815792] (-) TimerEvent: {}
+[3.916412] (-) TimerEvent: {}
+[4.017134] (-) TimerEvent: {}
+[4.117803] (-) TimerEvent: {}
+[4.190601] (bev_msgs) StdoutLine: {'line': b'[  4%] Built target bev_msgs__cpp\n'}
+[4.213501] (bev_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.214012] (bev_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.214344] (bev_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.217966] (-) TimerEvent: {}
+[4.226801] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.264646] (bev_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_generator_c.dir/rosidl_generator_c/bev_msgs/msg/detail/bbox__functions.c.o\x1b[0m\n'}
+[4.265076] (bev_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_generator_c.dir/rosidl_generator_c/bev_msgs/msg/detail/output__functions.c.o\x1b[0m\n'}
+[4.270170] (bev_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_generator_c.dir/rosidl_generator_c/bev_msgs/msg/detail/output_array__functions.c.o\x1b[0m\n'}
+[4.318113] (-) TimerEvent: {}
+[4.369884] (bev_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libbev_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.418257] (-) TimerEvent: {}
+[4.445239] (bev_msgs) StdoutLine: {'line': b'[ 19%] Built target bev_msgs__rosidl_generator_c\n'}
+[4.465806] (bev_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.466258] (bev_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.518431] (-) TimerEvent: {}
+[4.576612] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.609066] (bev_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bev_msgs/msg/output_array__type_support.cpp.o\x1b[0m\n'}
+[4.609503] (bev_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bev_msgs/msg/bbox__type_support.cpp.o\x1b[0m\n'}
+[4.609675] (bev_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bev_msgs/msg/output__type_support.cpp.o\x1b[0m\n'}
+[4.614447] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.618501] (-) TimerEvent: {}
+[4.646613] (bev_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bev_msgs/msg/detail/bbox__type_support.cpp.o\x1b[0m\n'}
+[4.647191] (bev_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bev_msgs/msg/detail/output_array__type_support.cpp.o\x1b[0m\n'}
+[4.647355] (bev_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bev_msgs/msg/detail/output__type_support.cpp.o\x1b[0m\n'}
+[4.653253] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.688955] (bev_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bev_msgs/msg/detail/dds_fastrtps/output__type_support.cpp.o\x1b[0m\n'}
+[4.689441] (bev_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bev_msgs/msg/detail/dds_fastrtps/bbox__type_support.cpp.o\x1b[0m\n'}
+[4.689815] (bev_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bev_msgs/msg/detail/dds_fastrtps/output_array__type_support.cpp.o\x1b[0m\n'}
+[4.718694] (-) TimerEvent: {}
+[4.819341] (-) TimerEvent: {}
+[4.878665] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.911282] (bev_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bev_msgs/msg/output__type_support.cpp.o\x1b[0m\n'}
+[4.911785] (bev_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bev_msgs/msg/bbox__type_support.cpp.o\x1b[0m\n'}
+[4.919532] (-) TimerEvent: {}
+[4.971609] (bev_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bev_msgs/msg/output_array__type_support.cpp.o\x1b[0m\n'}
+[5.011065] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.019695] (-) TimerEvent: {}
+[5.041022] (bev_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bev_msgs/msg/detail/output__type_support.c.o\x1b[0m\n'}
+[5.041543] (bev_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.049972] (bev_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bev_msgs/msg/detail/bbox__type_support.c.o\x1b[0m\n'}
+[5.111005] (bev_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bev_msgs/msg/detail/output_array__type_support.c.o\x1b[0m\n'}
+[5.119877] (-) TimerEvent: {}
+[5.129821] (bev_msgs) StdoutLine: {'line': b'[ 57%] Built target bev_msgs__rosidl_typesupport_c\n'}
+[5.160306] (bev_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.191817] (bev_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libbev_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.220053] (-) TimerEvent: {}
+[5.223585] (bev_msgs) StdoutLine: {'line': b'[ 61%] Built target bev_msgs__rosidl_typesupport_cpp\n'}
+[5.240687] (bev_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.241154] (bev_msgs) StdoutLine: {'line': b'[ 63%] Built target bev_msgs__rosidl_typesupport_introspection_c\n'}
+[5.320222] (-) TimerEvent: {}
+[5.369694] (bev_msgs) StdoutLine: {'line': b'[ 63%] Built target bev_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.420457] (-) TimerEvent: {}
+[5.521376] (-) TimerEvent: {}
+[5.529197] (bev_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.621503] (-) TimerEvent: {}
+[5.677004] (bev_msgs) StdoutLine: {'line': b'[ 65%] Built target bev_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.697247] (bev_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.721592] (-) TimerEvent: {}
+[5.822116] (-) TimerEvent: {}
+[5.922847] (-) TimerEvent: {}
+[6.023561] (-) TimerEvent: {}
+[6.124151] (-) TimerEvent: {}
+[6.131214] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.168641] (bev_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bev_msgs/msg/detail/output_array__type_support_c.cpp.o\x1b[0m\n'}
+[6.169106] (bev_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bev_msgs/msg/detail/output__type_support_c.cpp.o\x1b[0m\n'}
+[6.169240] (bev_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bev_msgs/msg/detail/bbox__type_support_c.cpp.o\x1b[0m\n'}
+[6.224309] (-) TimerEvent: {}
+[6.324935] (-) TimerEvent: {}
+[6.425528] (-) TimerEvent: {}
+[6.526073] (-) TimerEvent: {}
+[6.626645] (-) TimerEvent: {}
+[6.727218] (-) TimerEvent: {}
+[6.762152] (bev_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libbev_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.827393] (-) TimerEvent: {}
+[6.926839] (bev_msgs) StdoutLine: {'line': b'[ 76%] Built target bev_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.927436] (-) TimerEvent: {}
+[6.944367] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs\x1b[0m\n'}
+[6.962807] (bev_msgs) StdoutLine: {'line': b'[ 76%] Built target bev_msgs\n'}
+[6.978947] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__py\x1b[0m\n'}
+[7.005804] (bev_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.027655] (-) TimerEvent: {}
+[7.128375] (-) TimerEvent: {}
+[7.228895] (-) TimerEvent: {}
+[7.329437] (-) TimerEvent: {}
+[7.429961] (-) TimerEvent: {}
+[7.530470] (-) TimerEvent: {}
+[7.630978] (-) TimerEvent: {}
+[7.731504] (-) TimerEvent: {}
+[7.786693] (bev_msgs) StdoutLine: {'line': b'[ 78%] Built target bev_msgs__py\n'}
+[7.817354] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__python\x1b[0m\n'}
+[7.831595] (-) TimerEvent: {}
+[7.879365] (bev_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__python.dir/rosidl_generator_py/bev_msgs/msg/_bbox_s.c.o\x1b[0m\n'}
+[7.879866] (bev_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__python.dir/rosidl_generator_py/bev_msgs/msg/_output_s.c.o\x1b[0m\n'}
+[7.880037] (bev_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__python.dir/rosidl_generator_py/bev_msgs/msg/_output_array_s.c.o\x1b[0m\n'}
+[7.931785] (-) TimerEvent: {}
+[8.032448] (-) TimerEvent: {}
+[8.070077] (bev_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bev_msgs/libbev_msgs__python.so\x1b[0m\n'}
+[8.132642] (-) TimerEvent: {}
+[8.137035] (bev_msgs) StdoutLine: {'line': b'[ 87%] Built target bev_msgs__python\n'}
+[8.154832] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.155179] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.155309] (bev_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bev_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.185052] (bev_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bev_msgs/_bev_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.185544] (bev_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bev_msgs/_bev_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.185673] (bev_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/bev_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bev_msgs/_bev_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.232784] (-) TimerEvent: {}
+[8.315230] (bev_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bev_msgs/bev_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.315949] (bev_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bev_msgs/bev_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.329482] (bev_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/bev_msgs/bev_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.332841] (-) TimerEvent: {}
+[8.373361] (bev_msgs) StdoutLine: {'line': b'[100%] Built target bev_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.373873] (bev_msgs) StdoutLine: {'line': b'[100%] Built target bev_msgs__rosidl_typesupport_c__pyext\n'}
+[8.429405] (bev_msgs) StdoutLine: {'line': b'[100%] Built target bev_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.432994] (-) TimerEvent: {}
+[8.455900] (bev_msgs) CommandEnded: {'returncode': 0}
+[8.533207] (-) TimerEvent: {}
+[8.580061] (bev_msgs) JobProgress: {'identifier': 'bev_msgs', 'progress': 'install'}
+[8.605868] (bev_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/BEV_ws/build/bev_msgs'], 'cwd': '/home/nvidia/BEV_ws/build/bev_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2257'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.2.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'Jetson AGX Orin'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1571'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae75947c880b3effeaf5c7ce64cb6c6e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421023001391'), ('JOURNAL_STREAM', '7:50592'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Concord'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/bin:/bin:/home/nvidia/.local/bin'), ('SESSION_MANAGER', 'local/nvidia:@/tmp/.ICE-unix/2293,unix/nvidia:/tmp/.ICE-unix/2293'), ('INVOCATION_ID', 'ae1d07170886484bac09966058b2a4d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20254cba_6629_46b3_9d24_6002e6a40489'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.967'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/BEV_ws/build/bev_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae75947c880b3effeaf5c7ce64cb6c6e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.633369] (-) TimerEvent: {}
+[8.633989] (bev_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.634382] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/rosidl_interfaces/bev_msgs\n'}
+[8.634588] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs\n'}
+[8.634762] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg\n'}
+[8.634924] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/bbox.h\n'}
+[8.635082] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output_array.h\n'}
+[8.635299] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.635464] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail\n'}
+[8.635616] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__struct.h\n'}
+[8.635773] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__functions.c\n'}
+[8.635923] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__struct.h\n'}
+[8.636071] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__functions.c\n'}
+[8.636223] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__functions.h\n'}
+[8.636375] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.h\n'}
+[8.636526] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.h\n'}
+[8.636693] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__struct.h\n'}
+[8.636847] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__functions.c\n'}
+[8.636960] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__functions.h\n'}
+[8.637112] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__functions.h\n'}
+[8.637299] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.h\n'}
+[8.637420] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output.h\n'}
+[8.637547] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/library_path.sh\n'}
+[8.637702] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/library_path.dsv\n'}
+[8.637813] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_generator_c.so\n'}
+[8.638041] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_generator_c.so" to ""\n'}
+[8.638260] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs\n'}
+[8.638418] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg\n'}
+[8.638532] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail\n'}
+[8.638643] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_fastrtps_c.h\n'}
+[8.638859] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_fastrtps_c.h\n'}
+[8.638984] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_fastrtps_c.h\n'}
+[8.639245] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.639370] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.639796] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.640019] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs\n'}
+[8.640215] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg\n'}
+[8.640370] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.640545] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail\n'}
+[8.640706] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.640867] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.640987] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.641103] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/dds_fastrtps\n'}
+[8.641216] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.641373] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.641572] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs\n'}
+[8.641755] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg\n'}
+[8.641915] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.642074] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail\n'}
+[8.642232] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_introspection_c.h\n'}
+[8.642395] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.c\n'}
+[8.642543] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.c\n'}
+[8.642660] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_introspection_c.h\n'}
+[8.642810] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_introspection_c.h\n'}
+[8.642926] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.c\n'}
+[8.643039] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.643215] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.643378] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_c.so\n'}
+[8.643700] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.643924] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs\n'}
+[8.644084] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg\n'}
+[8.644251] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output.hpp\n'}
+[8.644428] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.644591] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/output_array.hpp\n'}
+[8.644748] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail\n'}
+[8.644904] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.hpp\n'}
+[8.645057] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.hpp\n'}
+[8.645235] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__traits.hpp\n'}
+[8.645382] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__struct.hpp\n'}
+[8.645499] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.hpp\n'}
+[8.645686] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__traits.hpp\n'}
+[8.645841] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__struct.hpp\n'}
+[8.646003] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__builder.hpp\n'}
+[8.646162] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__traits.hpp\n'}
+[8.646325] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__struct.hpp\n'}
+[8.646533] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__builder.hpp\n'}
+[8.646693] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__builder.hpp\n'}
+[8.646887] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/bbox.hpp\n'}
+[8.647046] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs\n'}
+[8.647234] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg\n'}
+[8.647369] (bev_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail\n'}
+[8.647549] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.647681] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__type_support.cpp\n'}
+[8.647807] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.647980] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.648158] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/bbox__type_support.cpp\n'}
+[8.648289] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/include/bev_msgs/msg/detail/output__type_support.cpp\n'}
+[8.648413] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.648618] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.648753] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_cpp.so\n'}
+[8.648923] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.649048] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/pythonpath.sh\n'}
+[8.649220] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/pythonpath.dsv\n'}
+[8.649346] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/__init__.py\n'}
+[8.694523] (bev_msgs) StdoutLine: {'line': b"Compiling '/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/__init__.py'...\n"}
+[8.702364] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg\n'}
+[8.702826] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/__init__.py\n'}
+[8.703166] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_bbox.py\n'}
+[8.703527] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_bbox_s.c\n'}
+[8.703754] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output.py\n'}
+[8.704018] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_array_s.c\n'}
+[8.704303] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_array.py\n'}
+[8.704572] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/msg/_output_s.c\n'}
+[8.704809] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.705098] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[8.705328] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.705638] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[8.705940] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.706251] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/python3.8/site-packages/bev_msgs/bev_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[8.706569] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__python.so\n'}
+[8.706845] (bev_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/BEV_ws/install/bev_msgs/lib/libbev_msgs__python.so" to ""\n'}
+[8.707169] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Output.idl\n'}
+[8.707498] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Bbox.idl\n'}
+[8.707801] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/OutputArray.idl\n'}
+[8.708076] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Output.msg\n'}
+[8.708350] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/Bbox.msg\n'}
+[8.708624] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/msg/OutputArray.msg\n'}
+[8.708916] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/package_run_dependencies/bev_msgs\n'}
+[8.709190] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/parent_prefix_path/bev_msgs\n'}
+[8.709473] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/ament_prefix_path.sh\n'}
+[8.709750] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/ament_prefix_path.dsv\n'}
+[8.710044] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/path.sh\n'}
+[8.710316] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/environment/path.dsv\n'}
+[8.710585] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.bash\n'}
+[8.710858] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.sh\n'}
+[8.711160] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.zsh\n'}
+[8.711429] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/local_setup.dsv\n'}
+[8.711699] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.dsv\n'}
+[8.711969] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/ament_index/resource_index/packages/bev_msgs\n'}
+[8.712242] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cExport.cmake\n'}
+[8.712541] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.712809] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.713108] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.713381] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.713676] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.713955] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.714249] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.714521] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.714834] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.715131] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.715387] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.715611] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.715830] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.716046] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.716263] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.716497] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.716717] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.716931] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgsConfig.cmake\n'}
+[8.717144] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/cmake/bev_msgsConfig-version.cmake\n'}
+[8.717358] (bev_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/BEV_ws/install/bev_msgs/share/bev_msgs/package.xml\n'}
+[8.719240] (bev_msgs) CommandEnded: {'returncode': 0}
+[8.733465] (-) TimerEvent: {}
+[8.834677] (-) TimerEvent: {}
+[8.935343] (-) TimerEvent: {}
+[8.982150] (bev_msgs) JobEnded: {'identifier': 'bev_msgs', 'rc': 0}
+[8.984233] (-) EventReactorShutdown: {}
