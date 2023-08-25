@@ -34,27 +34,24 @@ This project is using nuscense dataset
 format :  
 <img src='./imgs/matrix.png' width="30%"/>
 </br>
-
-    - 6 camera intrinsic 4x4 matrix
-        - rotation : camera intrinsic matrix
-        - translation : zero matrix
-
-
-    - 6 camera2lidar 4x4 matrix
-        - rotation : sensor2lidar rotation matrix
-        - translation : sensor2lidar translation matrix
-
-    - 6 lidar2camera 4x4 matrix
-        - rotation : Transformation of sensor2lidar rotation matrix
-        - translation : convolution of Transformation sensor2lidar translation and sensor2lidar rotation matrix
-
-    - 6 lidar2image 4x4 matrix
-        - using file `./tools/lidar2image.py`
-            - input : the `calibration_parameter.yaml` file which has the information of 3 matrix ubove.
-            - output : the lidar2image 4x4 matrix
-        - add this output matrix to `calibration_parameter.yaml` file which used in input
+- 6 camera intrinsic 4x4 matrix
+    - rotation : camera intrinsic matrix
+    - translation : zero matrix
 
 
+- 6 camera2lidar 4x4 matrix
+    - rotation : sensor2lidar rotation matrix
+    - translation : sensor2lidar translation matrix
+
+- 6 lidar2camera 4x4 matrix
+    - rotation : Transformation of sensor2lidar rotation matrix
+    - translation : convolution of Transformation sensor2lidar translation and sensor2lidar rotation matrix
+
+- 6 lidar2image 4x4 matrix
+    - using file `./tools/lidar2image.py`
+        - input : the `calibration_parameter.yaml` file which has the information of 3 matrix ubove.
+        - output : the lidar2image 4x4 matrix
+    - add this output matrix to `calibration_parameter.yaml` file which used in input
 </br>
 
 4. convert to `.bag` file using [nuscenes2bag](https://github.com/clynamen/nuscenes2bag)
