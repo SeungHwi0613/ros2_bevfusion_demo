@@ -32,7 +32,7 @@ This project is using nuscense dataset
 
 3. Make four 4x4 matrix below and update `calibration_parameter.yaml`  
 format :  
-<img src='./imgs/matrix.png' width="50%"/>
+<img src='./imgs/matrix.png' width="30%"/>
 </br>
 
     - 6 camera intrinsic 4x4 matrix
